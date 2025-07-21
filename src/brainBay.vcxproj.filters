@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="midi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NIA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_and.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_array3600.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_average.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_avi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_ballgame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_buffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_button.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_com_writer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_compare.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_comreader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_constant.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_correlation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_counter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_debounce.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_delay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_deviation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_differentiate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_displayvector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_doku.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_edf_reader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_edf_writer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_eeg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_erpdetect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_fft.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_file_reader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_file_writer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_filter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_floatvector.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_integrate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_keycapture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_keystrike.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_limiter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_lsl_receive.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_magnitude.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_martini.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_max.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_mci.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_midi.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_min.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_mixer4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_mouse.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_not.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_or.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_osci.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_particle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_peakdetect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_round.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_sample_hold.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_sessionmanager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_sessiontime.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_shadow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_signal.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_threshold.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_translate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_vectorfloat.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ob_volume.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="brainbay.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogs.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="files.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tty.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\fidlib\fidlib.c">
+      <Filter>fidlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="brainBay.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_and.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_array3600.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_average.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_avi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_ballgame.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_buffer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_button.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_com_writer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_compare.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_comreader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_constant.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_correlation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_counter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_debounce.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_delay.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_deviation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_differentiate.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_displayvector.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_doku.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_edf_reader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_edf_writer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_eeg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_erpdetect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_fft.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_file_reader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_file_writer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_filter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_floatvector.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_integrate.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_keycapture.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_keystrike.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_limiter.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_lsl_receive.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_magnitude.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_martini.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_max.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_mci.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_midi.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_min.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_mixer4.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_mouse.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_not.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_or.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_osci.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_particle.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_peakdetect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_round.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_sample_hold.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_sessionmanager.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_sessiontime.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_shadow.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_signal.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_translate.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_vectorfloat.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ob_volume.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fidlib\fidlib.h">
+      <Filter>fidlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fidlib\fidmkf.h">
+      <Filter>fidlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fidlib\fidrf_cmdlist.h">
+      <Filter>fidlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fidlib\fidrf_combined.h">
+      <Filter>fidlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\fidlib\fidrf_jit.h">
+      <Filter>fidlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CURSORS\dwell_arrow1.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="CURSORS\dwell_arrow2.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="CURSORS\dwell_arrow3.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="CURSORS\dwell_arrow4.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="CURSORS\dwell_arrow5.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="CURSORS\dwell_arrow6.cur">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>RC</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>RC</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{142d1182-596c-4cc9-9417-b2105713489c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1c20d168-a354-4e0a-a2f6-d43bb02fe666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RC">
+      <UniqueIdentifier>{a1a38a8a-5274-4804-b97e-34106e6ddcfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fidlib">
+      <UniqueIdentifier>{297fd506-f12c-4450-8fce-0392b9350abe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="brainbay.rc">
+      <Filter>RC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
