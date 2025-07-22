@@ -249,7 +249,7 @@ LRESULT CALLBACK ErpdetectboxDlgHandler( HWND hDlg, UINT message, WPARAM wParam,
 //
 
 
-ERPDETECTOBJ::ERPDETECTOBJ(int num) : BASE_CL()	
+ERPDETECTOBJ::ERPDETECTOBJ(int num) : BASE_CL("ERP-DETECT")
 	  {
 		int t,i;
 	    outports = 1;

@@ -86,7 +86,7 @@ LRESULT CALLBACK ComWriterDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPA
 }
 
 
-COM_WRITEROBJ::COM_WRITEROBJ(int num) : BASE_CL()
+COM_WRITEROBJ::COM_WRITEROBJ(int num) : BASE_CL("COM-WRITER")
 {
 	inports = 2;
 	width=75;

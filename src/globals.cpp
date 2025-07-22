@@ -111,7 +111,6 @@ struct MIDIPORTStruct       MIDIPORTS[MAX_MIDIPORTS];
 struct SCALEStruct          LOADSCALE;
 struct TIMINGStruct         TIMING;
 
-char objnames[OBJECT_COUNT][20]      = { OBJNAMES };
 char dimensions[10][10]      = {"uV","mV","V","Hz","%","DegC","DegF","uS","kOhm","BPM" };
 int  fft_bin_values[10]    = { 32,64,128,256,512,1024,2048,4096,0 };
 
@@ -134,7 +133,6 @@ void create_object(int type)
 		}
 	}
 	close_toolbox();
-	write_logfile("creating object: %s",objnames[type]);
 
 
 	switch(type) 
@@ -255,13 +253,15 @@ void create_object(int type)
 	}
 	if (actobject)
 	{
+		write_logfile("creating object: %s", actobject->desc);
+
 		actobject->type = type;
 		actobject->xPos=50; actobject->yPos=40;
 		i=actobject->inports;
         if (i<actobject->outports) i=actobject->outports;
 		if (!actobject->width) actobject->width=55; 
 		if (!actobject->height) actobject->height=CON_START+i*CON_HEIGHT+5;
-		if (!actobject->tag[0]) strcpy(actobject->tag,objnames[type]);
+		if (!actobject->tag[0]) strcpy(actobject->tag, actobject->desc);
 
 		for (i=0;i<MAX_CONNECTS;i++)
 		{ 
@@ -281,7 +281,10 @@ void create_object(int type)
 				SetWindowPos(actobject->displayWnd,HWND_TOP,0,0,0,0,SWP_DRAWFRAME|SWP_NOMOVE|SWP_NOSIZE);
 		}
 		if (actobject->displayWnd)   SetForegroundWindow(actobject->displayWnd);
-
+	}
+	else
+	{
+		write_logfile("failed to create object: %d", type);
 	}
 }
 

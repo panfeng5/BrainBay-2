@@ -219,7 +219,7 @@ LRESULT CALLBACK TranslateDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 //
 
 
-TRANSLATEOBJ::TRANSLATEOBJ(int num) : BASE_CL()	
+TRANSLATEOBJ::TRANSLATEOBJ(int num) : BASE_CL("TRANSLATE")
 {
 
 	outports = 1;

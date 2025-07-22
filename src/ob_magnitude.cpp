@@ -186,7 +186,7 @@ LRESULT CALLBACK MagnitudeDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 
 
 
-MAGNITUDEOBJ::MAGNITUDEOBJ(int num) : BASE_CL()	
+MAGNITUDEOBJ::MAGNITUDEOBJ(int num) : BASE_CL("MAGNITUDE")
 	  {
 	    outports = 1;
 		inports = 1;

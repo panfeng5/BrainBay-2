@@ -23,7 +23,7 @@
 
 using namespace std;
 
-CORRELATIONOBJ::CORRELATIONOBJ(int num) : BASE_CL()
+CORRELATIONOBJ::CORRELATIONOBJ(int num) : BASE_CL("CORRELATION")
 {
 	outports = 1;
 	inports = 2;

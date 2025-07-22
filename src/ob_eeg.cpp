@@ -1568,7 +1568,7 @@ LRESULT CALLBACK EEGDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARAM l
 
 
 
-EEGOBJ::EEGOBJ(int num) : BASE_CL()	
+EEGOBJ::EEGOBJ(int num) : BASE_CL("EEG")
 	{
 		inports = 0;
  		outports = 7;

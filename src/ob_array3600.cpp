@@ -293,7 +293,7 @@ BOOL ARRAY3600OBJ::BreakDownComPort()
 }
 
 
-ARRAY3600OBJ::ARRAY3600OBJ(int num) : BASE_CL()
+ARRAY3600OBJ::ARRAY3600OBJ(int num) : BASE_CL("ARRAY-3600")
 {
 	inports = 1;
 	width=75;

@@ -91,7 +91,7 @@ Exit:
 }
 
 
-VOLUMEOBJ::VOLUMEOBJ(int num) : BASE_CL()
+VOLUMEOBJ::VOLUMEOBJ(int num) : BASE_CL("VOLUME")
 {
 	outports = 0;
 	inports = 1;

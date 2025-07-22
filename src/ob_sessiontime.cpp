@@ -72,7 +72,7 @@ LRESULT CALLBACK SessiontimeDlgHandler( HWND hDlg, UINT message, WPARAM wParam, 
 } 
 
 
-SESSIONTIMEOBJ::SESSIONTIMEOBJ(int num) : BASE_CL()
+SESSIONTIMEOBJ::SESSIONTIMEOBJ(int num) : BASE_CL("SESSION-TIME")
 {
 	int t;
 	outports = 1;

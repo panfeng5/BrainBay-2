@@ -18,7 +18,7 @@
 #include "brainBay.h"
 #include "ob_integrate.h"
 
-INTEGRATEOBJ::INTEGRATEOBJ(int num) : BASE_CL()
+INTEGRATEOBJ::INTEGRATEOBJ(int num) : BASE_CL("INTEGRATE")
 {
 	outports = 1;
 	inports = 1;

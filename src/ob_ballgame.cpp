@@ -192,7 +192,7 @@ LRESULT CALLBACK BallgameWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPAR
 //
 
 
-BALLGAMEOBJ::BALLGAMEOBJ(int num) : BASE_CL()
+BALLGAMEOBJ::BALLGAMEOBJ(int num) : BASE_CL("BALL-GAME")
 	  {
 		outports = 1;
 		inports = 1;

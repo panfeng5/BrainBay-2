@@ -515,7 +515,7 @@ LRESULT CALLBACK MeterWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM 
 //
 
 
-THRESHOLDOBJ::THRESHOLDOBJ(int num) : BASE_CL()
+THRESHOLDOBJ::THRESHOLDOBJ(int num) : BASE_CL("THRESHOLD")
 	  {
 		outports = 3;
 		inports = 1;

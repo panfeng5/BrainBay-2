@@ -20,7 +20,7 @@
 
 
 
-CONSTANTOBJ::CONSTANTOBJ(int num) : BASE_CL()
+CONSTANTOBJ::CONSTANTOBJ(int num) : BASE_CL("CONSTANT")
 {
 	outports = 1;
 	inports = 0;

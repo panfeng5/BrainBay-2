@@ -171,7 +171,7 @@ LRESULT CALLBACK AVIWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM lP
 //
 
 
-AVIOBJ::AVIOBJ(int num) : BASE_CL()	
+AVIOBJ::AVIOBJ(int num) : BASE_CL("AVI")
 	  {
 	    inports  = 1;
 		outports = 0;

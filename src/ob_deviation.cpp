@@ -75,7 +75,7 @@ LRESULT CALLBACK DeviationDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPA
 	return FALSE;
 }
 
-DEVIATIONOBJ::DEVIATIONOBJ(int num) : BASE_CL()
+DEVIATIONOBJ::DEVIATIONOBJ(int num) : BASE_CL("DEVIATION")
 {
 	outports = 2;
 	inports = 1;

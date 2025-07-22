@@ -19,7 +19,7 @@
 #include "brainBay.h"
 #include "ob_round.h"
 
-ROUNDOBJ::ROUNDOBJ(int num) : BASE_CL()
+ROUNDOBJ::ROUNDOBJ(int num) : BASE_CL("ROUND")
 {
 	outports = 1;
 	inports = 1;

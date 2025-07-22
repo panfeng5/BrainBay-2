@@ -42,7 +42,7 @@ void FLOATVECTOROBJ::InitBuffer(int index){
 		buffer[index][i]=0.0;
 }
 
-FLOATVECTOROBJ::FLOATVECTOROBJ(int num) : BASE_CL()
+FLOATVECTOROBJ::FLOATVECTOROBJ(int num) : BASE_CL("FLOAT-VECTOR")
 {
 	set_inports(this,1);
 	set_outports(this,1);

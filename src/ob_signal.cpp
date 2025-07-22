@@ -155,7 +155,7 @@ LRESULT CALLBACK SignalDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARA
 //
 
 
-SIGNALOBJ::SIGNALOBJ(int num) : BASE_CL()	
+SIGNALOBJ::SIGNALOBJ(int num) : BASE_CL("SIGNAL")
 	  {
 		outports = 1;
 		inports = 0;

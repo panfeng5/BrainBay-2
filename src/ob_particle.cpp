@@ -410,7 +410,7 @@ LRESULT CALLBACK AnimationWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPA
 //
 
 
-PARTICLEOBJ::PARTICLEOBJ(int num) : BASE_CL()	
+PARTICLEOBJ::PARTICLEOBJ(int num) : BASE_CL("PARTICLE")
 	  {
 		inports  = 1;
 		outports = 0;

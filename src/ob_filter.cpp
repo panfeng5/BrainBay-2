@@ -298,7 +298,7 @@ LRESULT CALLBACK FilterboxDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 //
 
 
-FILTEROBJ::FILTEROBJ(int num) : BASE_CL()	
+FILTEROBJ::FILTEROBJ(int num) : BASE_CL("FILTER")
 	  {
 	    outports = 1;
 		inports = 1;

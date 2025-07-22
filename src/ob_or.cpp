@@ -92,7 +92,7 @@ LRESULT CALLBACK OrDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPa
 
 
 
-OROBJ::OROBJ(int num) : BASE_CL()
+OROBJ::OROBJ(int num) : BASE_CL("OR")
 {
 	outports = 1;
 	inports = 2;

@@ -19,7 +19,7 @@
 #include "brainBay.h"
 #include "ob_max.h"
 
-MAXOBJ::MAXOBJ(int num) : BASE_CL()
+MAXOBJ::MAXOBJ(int num) : BASE_CL("MAX")
 {
 	int t;
 	outports = 1;

@@ -325,7 +325,7 @@ LRESULT CALLBACK MouseDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARAM
 
 
 
-MOUSEOBJ::MOUSEOBJ(int num) : BASE_CL()
+MOUSEOBJ::MOUSEOBJ(int num) : BASE_CL("MOUSE")
 {
 	inports = 8;
 	strcpy(in_ports[0].in_name,"xPos");

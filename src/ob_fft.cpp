@@ -880,7 +880,7 @@ LRESULT CALLBACK FFTWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM lP
 //
 
 
-FFTOBJ::FFTOBJ(int num) : BASE_CL()	
+FFTOBJ::FFTOBJ(int num) : BASE_CL("FFT")
 	  {
 
 	    inports  = 1;

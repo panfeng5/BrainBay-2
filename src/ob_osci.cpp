@@ -820,7 +820,7 @@ LRESULT CALLBACK OsciWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM l
 //
 
 
-OSCIOBJ::OSCIOBJ(int num) : BASE_CL()	
+OSCIOBJ::OSCIOBJ(int num) : BASE_CL("OSCI")
 	  {
 	    outports = 0;
 		inports = 1;

@@ -48,7 +48,7 @@ LRESULT CALLBACK DokuDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARAM 
 
 
 
-DOKUOBJ::DOKUOBJ(int num) : BASE_CL()	
+DOKUOBJ::DOKUOBJ(int num) : BASE_CL("DOKU")
 	  {
 	    outports = 0;
 		inports = 0;

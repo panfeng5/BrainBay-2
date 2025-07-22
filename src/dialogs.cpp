@@ -1139,7 +1139,7 @@ LRESULT CALLBACK TAGDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARAM l
 		case WM_INITDIALOG:
 			{
 				
-				SetDlgItemText(hDlg, IDC_TYPE, objnames[actobject->type]);
+				SetDlgItemText(hDlg, IDC_TYPE, actobject->desc);
 				SetDlgItemText(hDlg, IDC_TAG, actobject->tag);
 
 			}
@@ -1716,7 +1716,7 @@ LRESULT CALLBACK DesignWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM
 					TIMING.pause_timer=1;
 					if (actobject) //&&(actobject!=objects[0]))        // delete a whole object
 					{
-  		 		   	    write_logfile("deleting object: %s",objnames[actobject->type]);
+  		 		   	    write_logfile("deleting object: %s",actobject->desc);
 						if (deviceobject==actobject) deviceobject=NULL;
 						for (object_index=0;actobject!=objects[object_index];object_index++);
 

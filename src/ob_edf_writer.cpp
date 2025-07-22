@@ -227,7 +227,7 @@ LRESULT CALLBACK EdfWriterDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 //
 
 
-EDF_WRITEROBJ::EDF_WRITEROBJ(int num) : BASE_CL()	
+EDF_WRITEROBJ::EDF_WRITEROBJ(int num) : BASE_CL("EDF-WRITER")
 	  {
   	    int x;
 	    outports = 0;

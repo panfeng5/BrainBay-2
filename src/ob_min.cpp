@@ -19,7 +19,7 @@
 #include "brainBay.h"
 #include "ob_min.h"
 
-MINOBJ::MINOBJ(int num) : BASE_CL()
+MINOBJ::MINOBJ(int num) : BASE_CL("MIN")
 {
 	int t;
 	outports = 1;

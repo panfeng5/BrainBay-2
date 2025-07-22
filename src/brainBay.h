@@ -49,83 +49,69 @@ extern "C" {
 
 //  Available Objects, add new Objects here :
 //
-#define OB_EEG           0
-#define OB_MIDI          1
-#define OB_FFT           2
-#define OB_THRESHOLD     3
-#define OB_FILTER        4
-#define OB_PARTICLE      5
-#define OB_OSCI          6
-#define OB_TRANSLATE     7
-#define OB_SIGNAL        8
-#define OB_MAGNITUDE     9
-#define OB_AND          10
-#define OB_OR           12
-#define OB_NOT          13
-#define OB_DOKU         15
-#define OB_EVAL		    16
-#define OB_AVI		    17
-#define OB_AVERAGE	    18
-#define OB_CORR		    19
-#define OB_EDF_READER   20
-#define OB_EDF_WRITER   21
-#define OB_COMPARE	    23
-#define OB_BALLGAME     24
-#define OB_MIXER4       25
-#define OB_MOUSE        26
-#define OB_ERPDETECT    27
-#define OB_COM_WRITER   28
-#define OB_INTEGRATE    30
-#define OB_DEBOUNCE     31
-#define OB_SAMPLE_HOLD  32
-#define OB_CONSTANT     33
-#define OB_COUNTER      35
-#define OB_FILE_WRITER  37
-#define OB_DEVIATION    38
-#define OB_MCIPLAYER    39
-#define OB_KEYSTRIKE    40
-#define OB_PEAKDETECT   41
-#define OB_MARTINI	    43
-#define OB_FILE_READER	44
-#define OB_ARRAY3600    46
-#define OB_COMREADER    47
-#define OB_MIN          49
-#define OB_MAX          50
-#define OB_ROUND        51
-#define OB_DIFFERENTIATE 52
-#define OB_DELAY        53
-#define OB_LIMITER      54
-#define OB_FLOATVECTOR	56
-#define OB_VECTORFLOAT	57
-#define OB_DISPLAYVECTOR 58
-#define OB_BUFFER       59
-#define OB_SESSIONTIME  61
-#define OB_SESSIONMANAGER 62
-#define OB_KEYCAPTURE   63
-#define OB_BUTTON       64
-#define OB_SHADOW       66
-#define OB_VOLUME       67
-#define OB_LSL_RECEIVER 71
-
-#define OBJECT_COUNT 	72
-
-
-
+enum {
+	OB_EEG = 0,
+	OB_MIDI,
+	OB_FFT,
+	OB_THRESHOLD,
+	OB_FILTER,
+	OB_PARTICLE,
+	OB_OSCI,
+	OB_TRANSLATE,
+	OB_SIGNAL,
+	OB_MAGNITUDE,
+	OB_AND,
+	OB_OR,
+	OB_NOT,
+	OB_DOKU,
+	OB_EVAL,
+	OB_AVI,
+	OB_AVERAGE,
+	OB_CORR,
+	OB_EDF_READER,
+	OB_EDF_WRITER,
+	OB_COMPARE,
+	OB_BALLGAME,
+	OB_MIXER4,
+	OB_MOUSE,
+	OB_ERPDETECT,
+	OB_COM_WRITER,
+	OB_INTEGRATE,
+	OB_DEBOUNCE,
+	OB_SAMPLE_HOLD,
+	OB_CONSTANT,
+	OB_COUNTER,
+	OB_FILE_WRITER,
+	OB_DEVIATION,
+	OB_MCIPLAYER,
+	OB_KEYSTRIKE,
+	OB_PEAKDETECT,
+	OB_MARTINI,
+	OB_FILE_READER,
+	OB_ARRAY3600,
+	OB_COMREADER,
+	OB_MIN,
+	OB_MAX,
+	OB_ROUND,
+	OB_DIFFERENTIATE,
+	OB_DELAY,
+	OB_LIMITER,
+	OB_FLOATVECTOR,
+	OB_VECTORFLOAT,
+	OB_DISPLAYVECTOR,
+	OB_BUFFER,
+	OB_SESSIONTIME,
+	OB_SESSIONMANAGER,
+	OB_KEYCAPTURE,
+	OB_BUTTON,
+	OB_SHADOW,
+	OB_VOLUME,
+	OB_LSL_RECEIVER,
+	OBJECT_COUNT,
+};
 
 
-#define OBJNAMES "EEG","MIDI","FFT","THRESHOLD","FILTER","PARTICLES","OSCI", \
-				 "TRANSLATE","SIGNAL","MAGNITUDE","AND","SOUND","OR","NOT", \
-				 "TCP-RECEIVE","INFO", "AVI","AVERAGER","CORRELATION", \
-				 "EDF-READER","EDF-WRITER","TCP-SENDER","COMPARE","BALLGAME",  \
-				 "MIXER", "MOUSE", "ERP-DETECT", "COM-WRITER", "INTEGRATE", \
-				 "DEBOUNCE", "SAMPLE_HOLD", "CONSTANT","COUNTER", \
-				 "FILEWRITE", "DEVIATION", "MEDIAPLAYER", "KEYSTRIKE", \
-				 "PEAKDETECT", "MARTINI", "FILEREAD", \
-				 "ARRAY-3600", "COMREADER", "MIN", "MAX", "ROUND", \
-				 "DIFFERENTIATE", "DELAY", "LIMITER", "FLOAT_VECTOR", \
-				 "VECTOR_FLOAT", "DISPLAY_VECTOR", "VECTORBUFFER", \
-				 "SESSIONTIME", "SESSIONMANAGER", "KEYCAPTURE", "BUTTON", \
-				 "SHADOW", "VOLUME", "OSC-SENDER", "LSL"
+
 //
 // use the main menu handler in brainbay.cpp 
 // to call the 'create_object'-function (located in in gloabals.cpp)
@@ -137,7 +123,6 @@ extern "C" {
 //	  void incoming_data(int port, float value);   new data arrived at port
 //	  void work(void);            called at sampling frequency
 //    + Constructor and Destructor-functions.
-
 
 
  
@@ -260,7 +245,6 @@ extern int PACKETSPERSECOND;
 extern char   midi_instnames[256][30];
 extern char   captfiletypes[10][40];
 extern char   devicetypes[20][40];
-extern char   objnames[OBJECT_COUNT][20];
 extern char   dimensions[10][10];
 extern int    BYTES_PER_PACKET[20];
 extern int    AMOUNT_TO_READ[20];

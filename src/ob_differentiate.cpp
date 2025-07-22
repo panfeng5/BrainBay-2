@@ -19,7 +19,7 @@
 #include "brainBay.h"
 #include "ob_differentiate.h"
 
-DIFFERENTIATEOBJ::DIFFERENTIATEOBJ(int num) : BASE_CL()
+DIFFERENTIATEOBJ::DIFFERENTIATEOBJ(int num) : BASE_CL("DIFFERENTIATE")
 {
 	outports = 1;
 	inports = 1;

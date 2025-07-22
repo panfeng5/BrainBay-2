@@ -408,7 +408,7 @@ LRESULT CALLBACK MartiniWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARA
 //
 
 
-MARTINIOBJ::MARTINIOBJ(int num) : BASE_CL()
+MARTINIOBJ::MARTINIOBJ(int num) : BASE_CL("MARTINI")
 	  {
 		char tmpfile[256];
 	

@@ -563,7 +563,7 @@ LRESULT CALLBACK SessionManagerWndHandler(HWND hWnd, UINT message, WPARAM wParam
 //
 
 
-SESSIONMANAGEROBJ::SESSIONMANAGEROBJ(int num) : BASE_CL()
+SESSIONMANAGEROBJ::SESSIONMANAGEROBJ(int num) : BASE_CL("SESSION-MANAGER")
 {
 	outports = 0;
 	inports = 0;

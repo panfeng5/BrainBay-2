@@ -97,6 +97,7 @@ typedef struct LINKStruct
 class BASE_CL
 {
   public:
+	char desc[30];
 	int type;
 	size_t object_size;
 	int inports;
@@ -114,8 +115,10 @@ class BASE_CL
 	LINKStruct  out[MAX_CONNECTS];
     HWND hDlg;
 
-	BASE_CL (void)
+	BASE_CL (const char* s)
 	{
+		snprintf(desc, sizeof(desc), "%s", s);
+
 		int i;
 		width=0; height=0; displayWnd=NULL;
 		tag[0]=0;

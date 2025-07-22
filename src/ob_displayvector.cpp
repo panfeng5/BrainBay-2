@@ -22,7 +22,7 @@
 
 using namespace std;
 
-DISPLAYVECTOROBJ::DISPLAYVECTOROBJ(int num) : BASE_CL()
+DISPLAYVECTOROBJ::DISPLAYVECTOROBJ(int num) : BASE_CL("DISPLAY-VECTOR")
 {
 	inports = 1;
 	outports = 0;

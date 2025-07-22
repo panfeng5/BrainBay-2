@@ -283,7 +283,7 @@ LRESULT CALLBACK CounterWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARA
 //
 
 
-COUNTEROBJ::COUNTEROBJ(int num) : BASE_CL()
+COUNTEROBJ::COUNTEROBJ(int num) : BASE_CL("COUNTER")
 	  {
 
 		outports = 1;

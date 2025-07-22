@@ -247,7 +247,7 @@ BOOL COMREADEROBJ::BreakDownComPort()
 }
 
 
-COMREADEROBJ::COMREADEROBJ(int num) : BASE_CL()
+COMREADEROBJ::COMREADEROBJ(int num) : BASE_CL("COM-READER")
 {
 	inports = 1;
 	outports = 1;

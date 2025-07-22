@@ -250,7 +250,7 @@ LRESULT CALLBACK MidiStreamDlgHandler( HWND hDlg, UINT message, WPARAM wParam, L
 //
 
 
-MIDIOBJ::MIDIOBJ(int num) : BASE_CL()	
+MIDIOBJ::MIDIOBJ(int num) : BASE_CL("MIDI")
 	  {
 	    outports = 0;
 		inports = 4;

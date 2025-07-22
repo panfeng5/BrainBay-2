@@ -184,7 +184,7 @@ LRESULT CALLBACK EdfReaderDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 //
 
 
-EDF_READEROBJ::EDF_READEROBJ(int num) : BASE_CL()	
+EDF_READEROBJ::EDF_READEROBJ(int num) : BASE_CL("EDF-READER")
 	  {
   	    int i;
 	    outports = 0;

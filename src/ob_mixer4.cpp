@@ -150,7 +150,7 @@ LRESULT CALLBACK Mixer4DlgHandler( HWND hDlg, UINT message, WPARAM wParam, LPARA
 
 
 
-MIXER4OBJ::MIXER4OBJ(int num) : BASE_CL()
+MIXER4OBJ::MIXER4OBJ(int num) : BASE_CL("MIXER4")
 {
 	outports = 1;
 	inports = 4;

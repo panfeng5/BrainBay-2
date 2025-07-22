@@ -21,7 +21,7 @@
 
 using namespace std;
 
-DELAYOBJ::DELAYOBJ(int num) : BASE_CL()
+DELAYOBJ::DELAYOBJ(int num) : BASE_CL("DELAY")
 {
 	outports = 1;
 	inports = 1;

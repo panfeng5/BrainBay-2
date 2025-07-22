@@ -229,7 +229,7 @@ LRESULT CALLBACK FileReaderDlgHandler( HWND hDlg, UINT message, WPARAM wParam, L
 //
 
 
-FILE_READEROBJ::FILE_READEROBJ(int num) : BASE_CL()	
+FILE_READEROBJ::FILE_READEROBJ(int num) : BASE_CL("FILE-READER")
 	  {
 	    outports = 1;
 		inports = 0;

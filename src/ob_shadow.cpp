@@ -147,7 +147,7 @@ LRESULT CALLBACK ShadowWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM
 //
 
 
-SHADOWOBJ::SHADOWOBJ(int num) : BASE_CL()
+SHADOWOBJ::SHADOWOBJ(int num) : BASE_CL("SHADOW")
 	  {
 
 		outports = 0;

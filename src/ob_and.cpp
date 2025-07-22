@@ -90,7 +90,7 @@ LRESULT CALLBACK AndDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPARAM lP
 }
 
 
-ANDOBJ::ANDOBJ(int num) : BASE_CL()
+ANDOBJ::ANDOBJ(int num) : BASE_CL("AND")
 {
 	outports = 1;
 	inports = 2;

@@ -41,7 +41,7 @@ void VECTORFLOATOBJ::InitBuffer(int index){
 		buffer[index][i]=0.0;
 }
 
-VECTORFLOATOBJ::VECTORFLOATOBJ(int num) : BASE_CL()
+VECTORFLOATOBJ::VECTORFLOATOBJ(int num) : BASE_CL("VECTOR-FLOAT")
 {
 	set_inports(this,1);
 	set_outports(this,1);

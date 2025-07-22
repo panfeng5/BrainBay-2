@@ -73,7 +73,7 @@ LRESULT CALLBACK COMPAREDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPARA
 	return FALSE;
 }
 
-COMPAREOBJ::COMPAREOBJ(int num) : BASE_CL()
+COMPAREOBJ::COMPAREOBJ(int num) : BASE_CL("COMPARE")
 {
 	outports = 1;
 	inports = 2;

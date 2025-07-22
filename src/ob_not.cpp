@@ -88,7 +88,7 @@ LRESULT CALLBACK NotDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPARAM lP
 }
 
 
-NOTOBJ::NOTOBJ(int num) : BASE_CL()
+NOTOBJ::NOTOBJ(int num) : BASE_CL("NOT")
 {
 	outports = 1;
 	inports = 1;

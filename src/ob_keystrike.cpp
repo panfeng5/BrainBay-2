@@ -254,7 +254,7 @@ LRESULT CALLBACK KeystrikeDlgHandler( HWND hDlg, UINT message, WPARAM wParam, LP
 
 
 
-KEYSTRIKEOBJ::KEYSTRIKEOBJ(int num) : BASE_CL()
+KEYSTRIKEOBJ::KEYSTRIKEOBJ(int num) : BASE_CL("KEY-STRIKE")
 {
 	int i;
 	outports = 0;

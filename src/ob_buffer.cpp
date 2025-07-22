@@ -41,7 +41,7 @@ void BUFFEROBJ::InitBuffer(int index){
 		buffer[index][i]=0.0;
 }
 
-BUFFEROBJ::BUFFEROBJ(int num) : BASE_CL()
+BUFFEROBJ::BUFFEROBJ(int num) : BASE_CL("BUFFER")
 {
 	set_inports(this,1);
 	set_outports(this,1);

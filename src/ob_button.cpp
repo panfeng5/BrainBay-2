@@ -306,7 +306,7 @@ LRESULT CALLBACK ButtonWndHandler(HWND hWnd, UINT message, WPARAM wParam, LPARAM
 //
 
 
-BUTTONOBJ::BUTTONOBJ(int num) : BASE_CL()
+BUTTONOBJ::BUTTONOBJ(int num) : BASE_CL("BUTTON")
 {
 	outports = 1;
 	inports = 0;

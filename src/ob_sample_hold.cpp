@@ -15,7 +15,7 @@
 #include "brainBay.h"
 #include "ob_sample_hold.h"
 
-SAMPLE_HOLDOBJ::SAMPLE_HOLDOBJ(int num) : BASE_CL()
+SAMPLE_HOLDOBJ::SAMPLE_HOLDOBJ(int num) : BASE_CL("SAMPLE-HOLD")
 {
 	outports = 1;
 	inports = 2;

@@ -167,7 +167,7 @@ LRESULT CALLBACK MCIDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LPARAM lP
 //
 
 
-MCIOBJ::MCIOBJ(int num) : BASE_CL()	
+MCIOBJ::MCIOBJ(int num) : BASE_CL("MCI")
 	  {
 	    inports  = 5;
 		outports = 0;

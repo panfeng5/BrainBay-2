@@ -313,7 +313,7 @@ LRESULT CALLBACK FileWriterDlgHandler( HWND hDlg, UINT message, WPARAM wParam, L
 //
 
 
-FILE_WRITEROBJ::FILE_WRITEROBJ(int num) : BASE_CL()	
+FILE_WRITEROBJ::FILE_WRITEROBJ(int num) : BASE_CL("FILE-WRITER")
 	  {
 	    outports = 0;
 		inports = 1;

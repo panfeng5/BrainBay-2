@@ -22,7 +22,7 @@
 
 using namespace std;
 
-AVERAGEOBJ::AVERAGEOBJ(int num) : BASE_CL()
+AVERAGEOBJ::AVERAGEOBJ(int num) : BASE_CL("AVERAGER")
 {
 	outports = 1;
 	inports = 1;

@@ -24,7 +24,7 @@
 #include "brainBay.h"
 #include "ob_keycapture.h"
 
-KEYCAPTUREOBJ::KEYCAPTUREOBJ(int num) : BASE_CL()
+KEYCAPTUREOBJ::KEYCAPTUREOBJ(int num) : BASE_CL("KEY-CAPTURE")
 {
 	outports = 1;
 	inports = 0;

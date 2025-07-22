@@ -163,7 +163,7 @@ LRESULT CALLBACK LSLReceiveDlgHandler( HWND hDlg, UINT message, WPARAM wParam, L
 //  Object Implementation
 //
 
-LSL_RECEIVEOBJ::LSL_RECEIVEOBJ(int num) : BASE_CL()	
+LSL_RECEIVEOBJ::LSL_RECEIVEOBJ(int num) : BASE_CL("LSL-RECEIVER")
 {
     outports = 1;
     inports = 0;

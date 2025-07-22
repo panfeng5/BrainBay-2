@@ -73,7 +73,7 @@ LRESULT CALLBACK PeakDetectDlgHandler(HWND hDlg, UINT message, WPARAM wParam, LP
 }
 
 
-PEAKDETECTOBJ::PEAKDETECTOBJ(int num) : BASE_CL()
+PEAKDETECTOBJ::PEAKDETECTOBJ(int num) : BASE_CL("PEAK-DETECT")
 {
 	outports = 1;
 	inports = 1;

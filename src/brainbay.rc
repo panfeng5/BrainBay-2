@@ -76,7 +76,6 @@ BEGIN
                 MENUITEM "SmartBrainTechnologies (4 Channel EEG)", IDM_INSERT_EEG_SBT4
                 MENUITEM "SmartBrainTechnologies (2 Channel Bluetooth EEG)", IDM_INSERT_EEG_SBT2
             END
-            MENUITEM "Camera",                      IDM_INSERTCAM
             MENUITEM "Com-Reader",                  IDM_INSERTCOMREADER
             MENUITEM "Constant",                    IDM_INSERTCONSTANT
             MENUITEM "EDF-Reader",                  IDM_INSERTEDFREADER
@@ -128,13 +127,11 @@ BEGIN
             MENUITEM "File-Writer",                 IDM_INSERTFILE_WRITER
             MENUITEM "Oscilloscope",                IDM_INSERTOSCI
             MENUITEM "Keystrike",                   IDM_INSERTKEYSTRIKE
-            MENUITEM "Parallel Port",               IDM_INSERTPORT_IO
             MENUITEM "Particle Generator",          IDM_INSERTPARTICLE
             MENUITEM "Midi-Player",                 IDM_INSERTMIDI
             MENUITEM "Media-Player",                IDM_INSERTMCIPLAYER
             MENUITEM "Mouse-Controller",            IDM_INSERTMOUSE
             MENUITEM "Shadow",                      IDM_INSERTSHADOW
-            MENUITEM "Sound-Player",                IDM_INSERTWAV
             MENUITEM "Threshold / Meter",           IDM_INSERTTHRESHOLD
             MENUITEM "Volume",                      IDM_INSERTVOLUME
         END

@@ -21,7 +21,7 @@
 
 using namespace std;
 
-LIMITEROBJ::LIMITEROBJ(int num) : BASE_CL()
+LIMITEROBJ::LIMITEROBJ(int num) : BASE_CL("LIMITER")
 {
 	outports = 1;
 	inports = 1;

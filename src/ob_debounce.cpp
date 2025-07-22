@@ -18,7 +18,7 @@
 #include "brainBay.h"
 #include "ob_debounce.h"
 
-DEBOUNCEOBJ::DEBOUNCEOBJ(int num) : BASE_CL()
+DEBOUNCEOBJ::DEBOUNCEOBJ(int num) : BASE_CL("DEBOUNCE")
 {
 	outports = 1;
 	inports = 1;
